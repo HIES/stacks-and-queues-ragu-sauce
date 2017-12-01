@@ -46,7 +46,7 @@ public class Stack<E>
 
 	}
 
-	public E peek()
+	public E peek() throws EmptyStackException
 	{
 		if (isEmpty()){
 			throw new EmptyStackException();
